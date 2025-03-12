@@ -1,0 +1,167 @@
+.center {
+    text-align: center;
+}
+
+/* header area */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+div#banner { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: none; 
+    opacity: 70%;
+    width: 100%; 
+    padding: 0;
+  }
+
+div#banner-content { 
+    width: 1500px; 
+    margin: 0 auto; 
+    opacity: 100%;
+    padding: 20px; 
+    position: relative;
+  }
+
+* {
+    font-size: 100%;
+    font-family: monospace;
+   }
+
+/* Button Creator */
+.button-container {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    }
+
+/* Button styling */
+.nav-button {
+    background-color: none;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+div#main-content { 
+    padding-top: 60px;
+}
+
+#banner-content img{
+    float: left;
+    padding: 1-px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Circle Button */
+.circle-button {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.circle-button:hover {
+    background-color: lightcoral;
+    transform: translateX(-50%) scale(1.05);
+}
+
+.custom-shape-divider-top-1740166480 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1740166480 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1740166480 .shape-fill {
+    fill: green;
+}
+
+.custom-shape-divider-top-1740167163 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1740167163 svg {
+    position: relative;
+    display: block;
+    width: calc(225% + 1.3px);
+    height: 650px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1740167163 .shape-fill {
+    fill: green;
+}
+
+.custom-shape-divider-top-1740167410 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform-origin: top left;
+}
+
+.custom-shape-divider-top-1740167410 svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 320px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1740167410 .shape-fill {
+    fill: green;
+}
